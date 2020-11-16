@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c069bbf1-235b-4987-9037-c34cbff912ee" name="Default Changelist" comment="" />
+    <list default="true" id="c069bbf1-235b-4987-9037-c34cbff912ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kOGW9iayGbiTgQpDC63anbgOTF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A13/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605564253249</updated>
-      <workItem from="1605564254311" duration="1412000" />
+      <workItem from="1605564254311" duration="3909000" />
     </task>
     <servers />
   </component>
@@ -42,9 +49,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="95" key="FileChooserDialogImpl" timestamp="1605564696369">
+    <state x="741" y="95" key="FileChooserDialogImpl" timestamp="1605565860343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="741" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605564696369" />
+    <state x="741" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605565860343" />
+    <state x="520" y="239" key="Github.ShareDialog" timestamp="1605565876267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="520" y="239" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1605565876267" />
+    <state x="469" y="46" key="Github.UntrackedFilesDialog" timestamp="1605565884280">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="469" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605565884280" />
   </component>
 </project>

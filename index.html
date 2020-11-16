@@ -3,25 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Cookie</title>
-    <script>
-        function WriteCookie() {
-            if(document.myform.person.value == "") {
-                alert("Please enter your name!");
-                return;
+    <script type="text/javascript">
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires="+d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
             }
-            cookievalue = escape(document.myform.person.value) + ";";
-            document.cookie = "name=" + cookievalue;
-            document.write ("Setting Cookies : " + "name=" + cookievalue );
+            return "";
+        }
+        function checkCookie() {
+            var user = getCookie("name");
+            if (user !== "") {
+                alert("Your name is: " + user);
+            } else {
+                user = prompt("Please enter name:", "");
+                if (user !== "" && user != null) {
+                    setCookie("name", user, 365);
+                }
+            }
         }
     </script>
 </head>
-<body>
-    <form name = "myform" action ="">
-        Enter name: <input type = "text" name = "person"/>
-        <input type = "button" value = "Set Cookie" onclick = "WriteCookie();"/>
-    </form>
-</body>
+<body onload="checkCookie()"></body>
 <footer>
-    <p>&copy; November 18, 2020 Nicholas Slamka, Thiells, NY 10984</p>
+    <p>Reload page to check cookies<br><br><br>&copy; November 18, 2020 Nicholas Slamka, Thiells, NY 10984</p>
 </footer>
 </html>
